@@ -2,39 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
   </head>
 
   <body>
 
       <header>
     
-        <h1>Tabless Thursday</h1>
+        <!-- <h1>Tabless Thursday</h1> -->
     
         <nav>
-          <a href="index.html"> Home </a>
-          <a href="features.html"> Features </a>
-          <a href="AboutUs.html"> About Us </a>
+          <a class = "col navLink" href= "index.html"> Home </a>
+          <a class = "col navLink" href= "features.html"> Features </a>
+          <a class = "col navLink" href= "AboutUs.html"> About Us </a>
           <!-- <a href="#"> Contact </a> -->
         </nav>
     
       </header>
 
-      <div class="container home">
+      <div class= "container home">
 
-          <div class="title-section"> 
+          <img class = "topImage" src="images/doMore.jpg">
 
-            <img class="topImage" src="#">
+          <div class = "title-section"> 
 
-            <h1>Hello! Welcome to Tabless Thursday!</h1>
-            <p>This could be a good place for our mission statement</p>
+            <h1 class = "row justify-content-center mainTitle">Welcome to Tabless Thursday!</h1>
+            <p class = "col missionText">This tool will provide an easy-to-use interface for managing your browser and providing more detailed summaries of what you were looking at and why.</p>
 
           </div>
 
-          <section class="topContent">
+          <section class = "row topContent">
 
-            <div class="content-section1">
+            <div class = "col content-section1">
 
               <h2>This will be the first content section</h2>
 
@@ -42,7 +43,7 @@
 
             </div>
 
-            <div class="content-section2">
+            <div class = "col content-section2">
 
               <h2>This will be the second content section</h2>
           
@@ -53,29 +54,31 @@
 
           </section>
 
-          <img class="middleImage" src="#">
+          <img class = "row middleImage" src = "images/Typing image.jpg">
 
-          <div class="content-section3">
+          <section class = "row bottomContent">
 
-            <h2>This will be the third content section</h2>
-          
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur debitis hic molestiae aliquid expedita tempore eligendi assumenda saepe aliquam non atque alias obcaecati quidem, necessitatibus quaerat iste minus fugiat minima?</p>
+            <div class = "col content-section3">
 
-          
-          </div>
-
-          <div class="content-section4">
-
-              <h2>This will be the fourth content section</h2>
+              <h2>This will be the third content section</h2>
             
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur debitis hic molestiae aliquid expedita tempore eligendi assumenda saepe aliquam non atque alias obcaecati quidem, necessitatibus quaerat iste minus fugiat minima?</p>
 
             
             </div>
 
+            <div class = "col content-section4">
 
+                <h2>This will be the fourth content section</h2>
+              
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur debitis hic molestiae aliquid expedita tempore eligendi assumenda saepe aliquam non atque alias obcaecati quidem, necessitatibus quaerat iste minus fugiat minima?</p>
 
-          <footer class="footer">
+              
+              </div>
+
+          </section>
+
+          <footer class = "row justify-content-center footer">
               <p>Copyright</p>
           </footer>
 
