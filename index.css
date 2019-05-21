@@ -41,6 +41,11 @@ button {
     color: white;
 }
 
+button:hover {
+    background-color: white;
+    color: #006494;
+}
+
 footer {
     margin-top: 30px;
 }
@@ -122,4 +127,34 @@ footer {
 
   .meetTheTeam {
     margin-bottom: 50px;
+}
+
+.personPic {
+    height: 300px;
+    width: 300px;
+}
+
+@media(max-width: 992px) {
+    .personPic {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+@media(max-width: 576px) {
+    .personPic {
+        display:none;
+    }
+}
+
+.personText {
+    background: #1B98E0;
+    color: white;
+    padding: 25px;
+}
+
+.personText:hover {
+    background-color: #006494;
 }
