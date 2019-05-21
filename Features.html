@@ -10,54 +10,84 @@
 
   <body>
 
+    <script defer="defer" src="index.js"></script>
+
       <header>
     
-        <!-- <h1>Page Title</h1> -->
     
         <nav>
             <a class = "col navLink" href= "index.html"> Home </a>
             <a class = "col navLink" href= "features.html"> Features </a>
             <a class = "col navLink" href= "AboutUs.html"> About Us </a>
-            <!-- <a href="#"> Contact </a> -->
-          </nav>
+        </nav>
     
       </header>
 
       <div class="container home">
 
-          <div class="title-section"> 
+        <div class="title-section"> 
 
-            <img class="topImage" src="images/analysis-coffee-cup-1549702.jpg">
+           <img class="topImage" src="images/analysis-coffee-cup-1549702.jpg">
 
-            <h1>Hello! Welcome to Tabless Thursday!</h1>
-            <p>This could be a good place for our mission statement</p>
+          <h1 class = "row justify-content-center">Features</h1>
+          <p class = "row justify-content-center">See what we can do!</p>
 
-          </div>
+        </div>
 
-          <div class="content-section1">
+      <div class="section">
+        <div class="tabs">
 
-            <h2>This will be the first content section</h2>
+            <div class="tabs-links">
+              <div class="tabs-link tabs-link-selected" data-tab="1">Feature 1</div>
+              <div class="tabs-link" data-tab="2">Feature 2</div>
+              <div class="tabs-link" data-tab="3">Feature 3</div>
+              <div class="tabs-link" data-tab="4">Feature 4</div>
+            </div>
 
-            <p>Paragraph Placeholder</p>
+          <div class="tabs-items">
+            <div class="tabs-item tabs-item-selected" data-tab="1">
+              <div class="tabs-item-title">Feature 1</div>
+              <div class="tabs-item-description">
+                This is our first feature
+              </div>                
+            </div>
 
-          </div>
+            <div class="tabs-item" data-tab="2">
+              <div class="tabs-item-title">Feature 2</div>
+              <div class="tabs-item-description">
+                  Curiously enough, the only thing that went through the mind of the bowl of petunias as it fell was Oh no, not again. Many
+                  people have speculated that if we knew exactly why the bowl of petunias had thought that we would know a lot more about the
+                  nature of the Universe than we do now.
+              </div>
+            </div>
 
-          <div class="content-section2">
+            <div class="tabs-item" data-tab="3">
+              <div class="tabs-item-title">Feature 3</div>
+              <div class="tabs-item-description">
+                It is known that there are an infinite number of worlds, simply because there is an infinite amount of space for them to
+                be in. However, not every one of them is inhabited. Therefore, there must be a finite number of inhabited worlds. Any finite
+                number divided by infinity is as near to nothing as makes no odds, so the average population of all the planets in the Universe
+              </div>
+            </div>
 
-            <h2>This will be the second content section</h2>
-        
-            <p>Paragraph Placeholder</p>
-        
-          </div>
+            <div class="tabs-item" data-tab="4">
+              <div class="tabs-item-title">Feature 4</div>
+              <div class="tabs-item-description">
+                    There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will
+                    instantly disappear and be replaced by something even more bizarre and inexplicable. There is another theory which states
+                    that this has already happened.
+              </div>
+            </div>
+            
+					</div>
+				</div>
+			</div>
+		</div>
 
 
-          <footer class="footer">
-              <p>Copyright</p>
-          </footer>
-
-      </div>
-
-     </div> 
+    <footer class = "row justify-content-around footer">
+      <p>Copyright</p>
+    </footer>
 
   </body>
 </html>
