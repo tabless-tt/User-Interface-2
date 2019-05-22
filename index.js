@@ -2,34 +2,7 @@
 
 /* About Us JS */
 
-class AboutBox {
-  constructor(domElement) {
-    this.domElement = domElement;
-    this.expandButton = this.domElement.querySelector('.expandButton');
-    this.expandButton.textContent = 'Expand';
-    this.expandButton.addEventListener('click', () => this.expandArticle());
-  }
-
-  expandArticle(event) {
-
-    this.domElement.classList.toggle('article-open');
-    if (this.domElement.classList.contains('article-open')) {
-      this.expandButton.textContent = 'Shrink';
-    } else {
-      this.expandButton.textContent = 'Expand';
-    }
-  }
-}
-
-let articles = Array.from(document.querySelectorAll('.person'));
-
-articles.forEach(article => { const articleInstance = new AboutBox(articles)})
-
-
-
 const connectBtn = document.getElementsByClassName("gitBtn");
-
-
 
   if (connectBtn) {
      for (var i=0; i <connectBtn.length; i++) {
@@ -45,10 +18,6 @@ const connectBtn = document.getElementsByClassName("gitBtn");
            }, 500);
         }, false);
       }};
-
-
-
-
 
 /* Features JS */
 
@@ -88,10 +57,6 @@ class TabLink {
       })
     }
   }
-  
-  
-  
-  /* START tabs HERE:   */
   
   links = document.querySelectorAll(".tabs-link")
   links.forEach(link => new TabLink(link));
