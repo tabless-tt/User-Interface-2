@@ -3,6 +3,24 @@
    License: none (public domain)
 */
 
+h1, h2, h3, h4, h5, {
+
+}
+
+p {
+
+}
+
+.title-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.missionText {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 header {
     background-color: #1B98E0;
     height: 50px;
@@ -17,6 +35,11 @@ header {
 
 a {
     color: white!important;
+}
+
+li {
+    background-color: #1B98E0;
+    opacity: 1;
 }
 
 
@@ -43,13 +66,15 @@ img {
     color: white!important;
 }
 
-button {
-    background-color: #006494;
+.mainBtn {
+    background-color: #E8F1F2;
     border-color: #E8F1F2;
-    color: white;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-button:hover {
+.mainBtn:hover {
     background-color: white;
     color: #006494;
 }
