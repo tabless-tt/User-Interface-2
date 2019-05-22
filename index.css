@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+header {
+    background-color: #1B98E0;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    height: 50px;
+    padding-top: 10px;
+    background-color: #1B98E0!important;
+}
+
+a {
+    color: white!important;
+}
+
+
+img {
+    width: 100%;
+    height: 450px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.content-section1, .content-section2 {
+    color: white!important;
+}
+
+.topContent, .bottomContent {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #1B98E0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bottomContent {
+    color: white!important;
+}
+
+button {
+    background-color: #006494;
+    border-color: #E8F1F2;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: #006494;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+
+
+/* This is where CSS for 'Features' Starts */
+
+.tabs {
+    width: 100%;
+  }
+  .tabs .tabs-items {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+  }
+  .tabs .tabs-item {
+    display: none;
+    width: 75%;
+  }
+  .tabs .tabs-item .tabs-item-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  .tabs .tabs-item-selected {
+    display: block;
+  }
+  .tabs .tabs-links {
+    display: flex;
+    background-color: #1B98E0;
+  }
+  .tabs .tabs-link {
+    padding: 20px 25px;
+    font-size: 24px;
+    background-color: #1B98E0;
+    border-right: 1px solid white;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  @media(max-width: 992px) {
+    .tabs-links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+  .tabs .tabs-link:hover {
+    background-color: #1B98E0;
+  }
+  .tabs .tabs-link-selected {
+    z-index: 2;
+    border-right: 1px solid #1B98E0;
+    background-color: #ffffff;
+    color: black;
+  }
+  .tabs .tabs-link-selected:hover {
+    background-color: #ffffff;
+  }
+
+  .header-container .header {
+    height: 50px;
+  }
+  .section {
+    width: 70%;
+    margin: 45px auto;
+    display: flex;
+    border: 1px solid #1B98E0;
+    box-shadow: 1px 1px 5px #1B98E0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  /* This is where CSS for 'AboutUs' Starts */
+
+  .meetTheTeam {
+    margin-bottom: 50px;
+}
+
+.personPic {
+    height: 300px;
+    width: 300px;
+}
+
+@media(max-width: 992px) {
+    .personPic {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+}
+
+@media(max-width: 576px) {
+    .personPic {
+        display:none;
+    }
+}
+
+.personText {
+    background: #1B98E0;
+    color: white;
+    padding: 25px;
+}
+
+.personText:hover {
+    background-color: #006494;
+    transform: scale(1.1);
+}
