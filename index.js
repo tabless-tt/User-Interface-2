@@ -2,6 +2,31 @@
 
 /* About Us JS */
 
+class AboutBox {
+  constructor(domElement) {
+    this.domElement = domElement;
+    this.expandButton = this.domElement.querySelector('.expandButton');
+    this.expandButton.textContent = 'Expand';
+    this.expandButton.addEventListener('click', () => this.expandArticle());
+  }
+
+  expandArticle(event) {
+
+    this.domElement.classList.toggle('article-open');
+    if (this.domElement.classList.contains('article-open')) {
+      this.expandButton.textContent = 'Shrink';
+    } else {
+      this.expandButton.textContent = 'Expand';
+    }
+  }
+}
+
+let articles = Array.from(document.querySelectorAll('.person'));
+
+articles.forEach(article => { const articleInstance = new AboutBox(articles)})
+
+
+
 const connectBtn = document.getElementsByClassName("gitBtn");
 
 
