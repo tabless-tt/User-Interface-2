@@ -9,14 +9,16 @@ header {
     margin-bottom: 10px;
 }
 
-nav {
+.navbar {
     height: 50px;
     padding-top: 10px;
+    background-color: #1B98E0!important;
 }
 
 a {
-    color: white;
+    color: white!important;
 }
+
 
 img {
     width: 100%;
@@ -25,14 +27,20 @@ img {
     border-radius: 20px;
 }
 
-.title-section {
-    color: black;
+.content-section1, .content-section2 {
+    color: white!important;
 }
 
 .topContent, .bottomContent {
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: #E8F1F2;
+    background-color: #1B98E0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bottomContent {
+    color: white!important;
 }
 
 button {
@@ -157,4 +165,5 @@ footer {
 
 .personText:hover {
     background-color: #006494;
+    transform: scale(1.1);
 }

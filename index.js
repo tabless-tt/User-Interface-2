@@ -1,7 +1,8 @@
+/* About Us JS */
 
 
 
-/* Tab JS */
+/* Features JS */
 
 class TabLink {
     constructor(element) {
