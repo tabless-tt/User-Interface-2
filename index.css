@@ -30,6 +30,10 @@ a {
     color: white!important;
 }
 
+a:hover {
+    color: black!important;
+}
+
 li {
     background-color: #1B98E0;
     opacity: 1;
@@ -68,8 +72,8 @@ img {
 }
 
 .mainBtn:hover {
-    background-color: white;
-    color: #006494;
+    background-color: #247BA0;
+    color: white;
 }
 
 footer {
