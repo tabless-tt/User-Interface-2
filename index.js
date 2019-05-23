@@ -1,6 +1,23 @@
+
+
 /* About Us JS */
 
+const connectBtn = document.getElementsByClassName("gitBtn");
 
+  if (connectBtn) {
+     for (var i=0; i <connectBtn.length; i++) {
+       connectBtn[i].addEventListener('mouseover', function(event) {
+            event.target.style.backgroundColor= "#247BA0";
+            event.target.style.color= "white";
+            event.stopPropagation();
+            event.preventDefault();
+    
+            setTimeout(function() {
+              event.target.style.backgroundColor = "";
+              event.target.style.color= "";
+           }, 500);
+        }, false);
+      }};
 
 /* Features JS */
 
@@ -41,9 +58,8 @@ class TabLink {
     }
   }
   
-  
-  
-  /* START tabs HERE:   */
-  
   links = document.querySelectorAll(".tabs-link")
   links.forEach(link => new TabLink(link));
+
+
+  

@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:900%7CRoboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    
 
   </head>
 
@@ -12,146 +14,109 @@
 
       <header>
     
-    
-          <!-- <nav>
-            <a class = "col navLink" href= "index.html"> Home </a>
-            <a class = "col navLink" href= "features.html"> Features </a>
-            <a class = "col navLink" href= "AboutUs.html"> About Us </a>
-          </nav> -->
-
-          <!-- Testing Navbar Dropdown -->
-
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-            
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+              </button>            
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                   <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                   </li>
-
                   <li class="nav-item active">
-                  <a class="nav-link" href="Features.html">Features <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="Features.html">Features <span class="sr-only">(current)</span></a>
                   </li>
-
                   <li class="nav-item active">
                     <a class="nav-link" href="AboutUs.html">About Us <span class="sr-only">(current)</span></a>
                   </li>
-
-
-                  <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </li> -->
-
-                </ul>
               </div>
-          </nav>
-    
+          </nav>    
       </header>
 
       <div class="container home">
-
           <img class="topImage" src="images/bump-collaboration-colleagues-1068523.jpg">
-
           <div class="row-lg justify-content-center meetTheTeam"> 
-
             <h1 class = "row justify-content-center">Meet the team</h1>
-
           </div>
+          <div class = "articles">
 
-          <div class="row col-md person1">
-
-            <div class = "col-lg align-self-center personText">
-
-              <h2>Modesto</h2>
-
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore numquam animi amet dolor hic, molestias nam, iusto minus assumenda tenetur at sunt porro delectus quibusdam omnis aliquam debitis mollitia corporis?</p>
-
-            </div>
-
-            <div class = "col-lg row-md personImg">
-              <img class = "img-thumbnail col d-lg-block personPic" src="#">
-            </div>
-
-          </div>
-
-          <div class="row col-md person2">
-
-              <div class = "col-lg order-first row-md order-last personImg">
-                <img class = "img-thumbnail col d-lg-block personPic" src="#">
+            <div class="row col-md article person1">
+              <div class = "col-lg align-self-center personText pTxt1">
+                <h2>Modesto Tamayo</h2>
+                <h4>Team Lead</h4>
+                <p>Responsible for the deployment of the project, marketing site, client side app, and back end API. Partner with all other teammates to assist wherever needed and provide guidance when needed. Promote strong communication and teamwork for the team for the entirety of the project.</p>
+                <div class = "row justify-content-center">
+                  <button class = "gitBtn" onclick="window.location.href = 'https://github.com/ModestoT';">Connect</button>
+                </div>
               </div>
-
-              <div class = "col align-self-center personText">
-
-                <h2>Michael</h2>
-    
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore numquam animi amet dolor hic, molestias nam, iusto minus assumenda tenetur at sunt porro delectus quibusdam omnis aliquam debitis mollitia corporis?</p>
-    
-              </div>
-        
-          </div>
-
-          <div class="row col-md person3">
-
-              <div class = "col align-self-center personText">
-
-                <h2>Irving</h2>
-    
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore numquam animi amet dolor hic, molestias nam, iusto minus assumenda tenetur at sunt porro delectus quibusdam omnis aliquam debitis mollitia corporis?</p>
-    
-              </div>
-
               <div class = "col-lg row-md personImg">
-                  <img class = "img-thumbnail col d-lg-block personPic" src="#">
+                <img class = "img-thumbnail col d-lg-block personPic" src="images/32940785.jpg">
               </div>
-          
+              <span class = "expandButton"></span>
+            </div>
+
+            <div class="row col-md article person2">
+                <div class = "col-lg order-first row-md order-last personImg">
+                  <img class = "img-thumbnail col d-lg-block personPic" src="images/16472121.jpg">
+                </div>
+                <div class = "col align-self-center personText pTxt2">
+                  <h2>Michael Falahee</h2>
+                  <h4>Front End Architect</h4>    
+                  <p>Responsible for the Front End of the project while partnering with the UI Developers and Back End Architect to ensure full functionality of React components.</p>
+                  <div class = "row justify-content-center">
+                    <button class = "gitBtn" onclick="window.location.href = 'https://github.com/Mjfalahee';">Connect</button>
+                  </div>
+                  <span class = "expandButton"></span>    
+                </div>          
+            </div>
+
+            <div class="row col-md article person3">
+                <div class = "col align-self-center personText pTxt3">
+                  <h2>Irving Duran</h2>
+                  <h4>Back End Architect</h4>     
+                  <p>Responsible for Back End architecture of the project while partnering with Front End Architect and Team Lead to discover project needs and rdeliver working Endpoints for the application.</p>
+                  <div class = "row justify-content-center">
+                    <button class = "gitBtn" onclick="window.location.href = 'https://github.com/fixmylifedesigns';">Connect</button>
+                  </div>    
+                </div>
+                <div class = "col-lg row-md personImg">
+                    <img class = "img-thumbnail col d-lg-block personPic" src="images/32081816.jpg">
+                </div>
+                <span class = "expandButton"></span>        
+            </div>
+
+            <div class="row col-md article person4">
+              <div class = "col-lg row-md order-last personImg">
+               <img class = "img-thumbnail col d-lg-block personPic" src="images/37121502.jpg">
+              </div>
+              <div class = "col align-self-center personText pTxt4">
+                <h2>Jeff Oliver</h2>
+                <h4>Web UI Developer</h4>
+                <p>Responsible for creating the multi-page marketing website and making it responsive to mobile and desktop screen widths. Creating a call to action that links the user to the React Application. Partnered with other UI Developer and the Front End Architect.</p>
+                <div class = "row justify-content-center">
+                  <button class = "gitBtn" onclick="window.location.href = 'https://github.com/codeOfTheFuture';">Connect</button>
+                </div>
+                <span class = "expandButton"></span>
+              </div> 
+            </div>
+
+            <div class="row col-md article person5">
+              <div class = "col align-self-center personText pTxt5">
+                <h2>Chris Carter</h2>
+                <h4>Web UI Developer</h4>
+                <p>Responsible for creating the multi-page marketing website and making it responsive to mobile and desktop screen widths. Creating a call to action that links the user to the React Application. Partnered with other UI Developer and the Front End Architect.</p>
+                <div class = "row justify-content-center">
+                  <button class = "gitBtn" onclick="window.location.href = 'https://github.com/ChrisJCarter91';">Connect</button>
+                </div>
+              </div>
+              <div class = "col-lg row-md personImg">
+                <img class = "img-thumbnail col d-lg-block personPic" src="images/Me.jpeg">
+              </div>
+              <span class = "expandButton"></span>
+            </div>
+
           </div>
-
-          <div class="row col-md person4">
-
-            <div class = "col-lg row-md order-last personImg">
-                <img class = "img-thumbnail col d-lg-block personPic" src="#">
-            </div>
-
-            <div class = "col align-self-center personText">
-
-               <h2>Jeff</h2>
-    
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore numquam animi amet dolor hic, molestias nam, iusto minus assumenda tenetur at sunt porro delectus quibusdam omnis aliquam debitis mollitia corporis?</p>
-    
-            </div>
-            
-          </div>
-
-          <div class="row col-md person5">
-
-            <div class = "col align-self-center personText">
-
-                <h2>Chris</h2>
-    
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore numquam animi amet dolor hic, molestias nam, iusto minus assumenda tenetur at sunt porro delectus quibusdam omnis aliquam debitis mollitia corporis?</p>
-
-            </div>
-
-            <div class = "col-lg row-md personImg">
-               <img class = "img-thumbnail col d-lg-block personPic" src="images/Me.jpeg">
-            </div>
-          
-          </div>
-
-
-
 
           <footer class = "row justify-content-around footer">
               <p>Copyright</p>
@@ -162,4 +127,10 @@
      </div> 
 
   </body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script defer="defer" src="index.js"></script>
+
 </html>

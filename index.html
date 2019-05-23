@@ -1,111 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Lato:900%7CRoboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    
   </head>
 
   <body>
 
       <header>
-    
-          <!-- <nav>
-            <a class = "col navLink" href= "index.html"> Home </a>
-            <a class = "col navLink" href= "features.html"> Features </a>
-            <a class = "col navLink" href= "AboutUs.html"> About Us </a>
-          </nav> -->
-
-          <!-- Testing Navbar Dropdown -->
-
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
               <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
             
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                   </li>
-
                   <li class="nav-item active">
-                  <a class="nav-link" href="Features.html">Features <span class="sr-only">(current)</span></a>
+                   <a class="nav-link" href="Features.html">Features <span class="sr-only">(current)</span></a>
                   </li>
-
                   <li class="nav-item active">
                     <a class="nav-link" href="AboutUs.html">About Us <span class="sr-only">(current)</span></a>
                   </li>
-
-
-                  <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </li> -->
-
-                </ul>
               </div>
             </nav>
-      
       </header>
 
       <div class= "container home">
-
           <div class = "title-section"> 
-
               <h1 class = "row justify-content-center mainTitle">Welcome to Tabless Thursday!</h1>
-              <p class = "col missionText">This tool will provide an easy-to-use interface for managing your browser and providing more detailed summaries of what you were looking at and why.</p>
-
-              <img class = "d-none d-lg-block topImage" src="images/doMore.jpg">
-
+              <h5 class = "row justify-content-center missionText">This tool will provide an easy-to-use interface to manage your browser and prioritize your work</h5>
+              <img class = "d-none d-lg-block row topImage" src="images/doMore.jpg">
           </div>
-
 
         <section class = "row col-md topContent">
-
           <div class = "col-lg row-md-12 content-section1">
-
-            <h2>This will be the first content section</h2>
-
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur debitis hic molestiae aliquid expedita tempore eligendi assumenda saepe aliquam non atque alias obcaecati quidem, necessitatibus quaerat iste minus fugiat minima?</p>
-
+            <h2>Increase Productivity</h2>
+            <p>We all know someone how always has way too many tabs open on their webpages. Let's be honest, many of us are those people. With Tabless Thursday, you can eliminate the clutter that tabs create and allow you to focus on the most important projects.</p>
           </div>
-
           <div class = "col row-md content-section2">
-
-            <h2>This will be the second content section</h2>
-            
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur debitis hic molestiae aliquid expedita tempore eligendi assumenda saepe aliquam non atque alias obcaecati quidem, necessitatibus quaerat iste minus fugiat minima?</p>
-
-            
+            <h2>Turn Tabs Into To-Do's</h2>
+            <p>Tabless Thursday will not only allow you to remove the clutter at the top of your webpage, but it will turn these into an organized list of "to-do's" that you can prioritize to help you know which items are of higher priority.</p>
           </div>
-
         </section>
 
         <img class = "d-none d-md-block row middleImage" src = "images/Typing image.jpg">
 
         <section class = "row justify-content-center row col-md bottomContent">
-
           <div>
-
             <h2>Join Today!</h2>
-
             <div class = "row justify-content-center">
-              <button>Join Now</button>
+              <button class = "mainBtn" onclick="window.location.href = 'https://tabless-thursday.netlify.com/';">Join Now</button>
             </div>
-
           </div>
-
-
         </section>
 
           <footer class = "row justify-content-around footer">
@@ -115,4 +70,9 @@
       </div>
 
   </body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </html>
