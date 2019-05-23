@@ -109,6 +109,11 @@ footer {
 
 /* This is where CSS for 'Features' page starts */
 
+.section {
+    display: flex;
+    justify-content: center;
+}
+
 .tabs {
     width: 100%;
   }
