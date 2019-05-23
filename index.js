@@ -60,3 +60,6 @@ class TabLink {
   
   links = document.querySelectorAll(".tabs-link")
   links.forEach(link => new TabLink(link));
+
+
+  
