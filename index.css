@@ -24,6 +24,7 @@ header {
 
 a {
     color: white!important;
+    margin-left: 10px;
 }
 
 a:hover {
