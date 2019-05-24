@@ -1,3 +1,7 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
 .title-section {
     margin-top: 40px;
@@ -127,6 +131,12 @@ footer {
 
   .tabs-items:hover {
     transform: scale(1.1);
+  }
+
+  @media(max-width: 992px) {
+      .tabs-items {
+          height: auto!important;
+      }
   }
 
   .tabs .tabs-item {
